@@ -8,10 +8,10 @@ export function Informacoes() {
             <h2>Informações</h2>
             <h3>Nova Madeira</h3>
             <div className="info-list">
-              <div><span>Endereço</span><strong>Rua Nova Brasilia nº576</strong></div>
+              <div><span>Endereço</span><strong>Rua Nova Brasília nº 576</strong></div>
               <div><span>E-mail</span><a href="mailto:novamadeiraplanejados@gmail.com">novamadeiraplanejados@gmail.com</a></div>
             </div>
-            <a className="primary-btn whatsapp-link" href="https://wa.me/5511914867169" target="_blank" rel="noreferrer">FALE CONOSCO PELO WHATSAPP <span>↗</span></a>
+            <a className="primary-btn whatsapp-link" href="https://wa.me/55914867169" target="_blank" rel="noreferrer">FALE CONOSCO PELO WHATSAPP <span>↗</span></a>
           </div>
           <div className="info-mark">
             <img src="/images/logo.png" alt="" aria-hidden="true" />

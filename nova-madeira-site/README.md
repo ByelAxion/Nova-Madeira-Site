@@ -132,7 +132,7 @@ java -jar target/nova-madeira-api-1.0.0.jar
 ## Dados configurados
 
 - Nome: Nova Madeira
-- Endereço: Avenida Dr. Frederico Martins da Costa Carvalho, 1434
+- Endereço: Rua Nova Brasilia nº668
 - E-mail: novamadeiraplanejados@gmail.com
 - WhatsApp: +55 11 91486-7169
 - Instagram: https://www.instagram.com/novamadeiraplanejados
