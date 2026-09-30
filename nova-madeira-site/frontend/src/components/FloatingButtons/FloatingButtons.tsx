@@ -24,7 +24,7 @@ export function FloatingButtons() {
 
   return (
     <div className="floating-buttons" aria-label="Atalhos de contato">
-      <a className="float-btn whatsapp" href="https://wa.me/55914867169" target="_blank" rel="noreferrer" aria-label="Falar com a Nova Madeira pelo WhatsApp">
+      <a className="float-btn whatsapp" href="https://wa.me/5511913331929" target="_blank" rel="noreferrer" aria-label="Falar com a Nova Madeira pelo WhatsApp">
         <WhatsAppIcon />
       </a>
       <a className="float-btn instagram" href="https://www.instagram.com/novamadeiraplanejados?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" aria-label="Abrir Instagram da Nova Madeira">

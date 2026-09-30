@@ -1,3 +1,4 @@
+
 .footer {
   border-top: 1px solid rgba(225, 111, 33, .18);
   background: #070605;
@@ -31,12 +32,15 @@
   color: var(--orange);
 }
 
-.footer-links, .footer-contact {
+.footer-links,
+.footer-contact {
   display: grid;
   gap: 11px;
 }
 
-.footer-links button, .footer-contact a, .footer-contact span {
+.footer-links button,
+.footer-contact a,
+.footer-contact span {
   width: fit-content;
   border: 0;
   padding: 0;
@@ -50,16 +54,40 @@
   transition: color .2s ease;
 }
 
-.footer-links button:hover, .footer-contact a:hover {
+.footer-links button:hover,
+.footer-contact a:hover {
   color: var(--orange);
 }
 
+/* Parte inferior do rodapé */
 .footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   padding: 18px 20px;
-  border-top: 1px solid rgba(255,255,255,.06);
+  border-top: 1px solid rgba(255, 255, 255, .06);
   text-align: center;
   color: #817a74;
   font-size: .75rem;
+}
+
+/* Créditos da Vellmont */
+.footer-creator {
+  font-size: .72rem;
+  color: #8f847b;
+  letter-spacing: .08em;
+}
+
+.footer-creator strong {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+.footer-creator strong:hover {
+  color: #f39a52;
+  transition: color .3s ease;
 }
 
 @media (max-width: 800px) {
@@ -67,6 +95,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
+
   .footer-grid > :first-child {
     grid-column: 1 / -1;
   }
@@ -78,7 +107,9 @@
     gap: 32px;
     padding: 50px 0 38px;
   }
+
   .footer-grid > :first-child {
     grid-column: auto;
   }
 }
+
